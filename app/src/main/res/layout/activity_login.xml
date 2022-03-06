@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textSize="50sp"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:hint="@string/e_mail"
+        android:paddingStart="13dp"
+        android:paddingEnd="13dp"
+        style= "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edt_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="13dp"
+        android:paddingEnd="13dp"
+        style= "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/purple_200"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_create_new_account"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/create_new_account"
+        android:textColor="@color/black_white_shaded"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".Login">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_login"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:fontFamily="@font/abhaya_libre_semibold"-->
+<!--            android:text="LOGIN"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="40sp" />-->
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/edt_container1"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/text_login"-->
+<!--            android:layout_marginHorizontal="20dp"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            app:helperText="Required*"-->
+<!--            app:helperTextTextColor="@color/purple_500">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/edt_email"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="E-MAIL"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:lines="1"></com.google.android.material.textfield.TextInputEditText>-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/edt_container2"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_marginHorizontal="20dp"-->
+<!--            android:layout_below="@+id/edt_container1"-->
+<!--            app:counterEnabled="true"-->
+
+<!--            app:counterMaxLength="10"-->
+<!--            app:passwordToggleEnabled="true"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            >-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/edt_password"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="PASSWORD"-->
+<!--                android:inputType="textPassword"-->
+<!--                android:lines="1"-->
+<!--                android:maxLength="10">-->
+
+<!--            </com.google.android.material.textfield.TextInputEditText>-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_login"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/edt_container2"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:background="@color/purple_200"-->
+<!--            android:text="LOGIN"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_create_new_account"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/btn_login"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:text="create_new_account"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp" />-->
+
+
+    <!--</RelativeLayout>-->

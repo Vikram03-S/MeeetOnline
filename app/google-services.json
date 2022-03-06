@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667052448298",
+    "project_id": "meetonline-e4814",
+    "storage_bucket": "meetonline-e4814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667052448298:android:bc92c366df9ff436c10153",
+        "android_client_info": {
+          "package_name": "com.example.meetonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667052448298-kgeh8egm4v8ncli1ggjf3e420a8b62q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDORSrACGdbgHcLDDbWC-USRW-NMZn4Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667052448298-kgeh8egm4v8ncli1ggjf3e420a8b62q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
